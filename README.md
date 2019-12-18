@@ -1,4 +1,2 @@
 # usuage
-`docker run -it --name clamscan -v /:/scan -e RUNHOUR=13 8399c1c62893`
-
-
+`docker run -it -v /:/scan -e RUNHOUR=13 4nn0/clamav-scan`
