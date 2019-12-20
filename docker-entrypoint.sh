@@ -1,5 +1,4 @@
 #!/bin/sh
-set -x
 while true
 do
   if [ $(date +"%k") -eq $RUNHOUR ]
